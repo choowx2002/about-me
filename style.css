@@ -1,0 +1,20 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100%;
+  	width: 100%;
+	cursor: none;
+    background-color: rgba(3, 11, 32, 0.5);
+    background-image: url(assest/bg01.jpg);
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+
+.container{
+	position: fixed;
+	width: 48px;
+	height: 48px;
+    overflow: hidden;
+}
