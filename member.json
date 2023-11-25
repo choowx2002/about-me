@@ -1,0 +1,76 @@
+[
+    {
+      "BasicInfo": {
+        "Name": "隠岐 孝二（おき こうじ）",
+        "AffiliatedForce": "边境本部",
+        "Rank": "B级",
+        "Squad": "生驹队",
+        "Position": "狙击手"
+      },
+      "PersonalProfile": {
+        "Age": "17岁",
+        "Birthday": "9月30日",
+        "Height": "176cm",
+        "BloodType": "AB型",
+        "ZodiacSign": "新月座",
+        "Occupation": "高中生",
+        "Likes": ["明石烧", "关东煮", "猫", "购物"]
+      },
+      "AdditionalInfo": {
+        "FamilyMembers": ["父亲", "母亲", "猫"]
+      },
+      "CombatInfo": {
+        "TriggerConfig": {
+          "PrimaryTrigger": ["白鹭", "闪电", "盾", "蚱蜢"],
+          "SecondaryTrigger": ["蓑衣虫", "Free", "盾", "Free"]
+        },
+        "Ability": {
+          "Trion": 8,
+          "Attack": 6,
+          "DefenseSupport": 7,
+          "Mobility": 7,
+          "Skill": 8
+        },
+        "AbilityList" : [8,6,7,7,8]
+      },
+      "Image": "assest/bg01.jpg",
+      "Cursor": "assest/cursor/Oki_Kōji-removebg-preview.png"
+    },
+    {
+        "BasicInfo": {
+          "Name": "隠岐 孝二（おき こうじ）2",
+          "AffiliatedForce": "边境本部",
+          "Rank": "B级",
+          "Squad": "生驹队",
+          "Position": "狙击手"
+        },
+        "PersonalProfile": {
+          "Age": "17岁",
+          "Birthday": "9月30日",
+          "Height": "176cm",
+          "BloodType": "AB型",
+          "ZodiacSign": "新月座",
+          "Occupation": "高中生",
+          "Likes": ["明石烧", "关东煮", "猫", "购物"]
+        },
+        "AdditionalInfo": {
+          "FamilyMembers": ["父亲", "母亲", "猫"]
+        },
+        "CombatInfo": {
+          "TriggerConfig": {
+            "PrimaryTrigger": ["白鹭", "闪电", "盾", "蚱蜢"],
+            "SecondaryTrigger": ["蓑衣虫", "Free", "盾", "Free"]
+          },
+          "Ability": {
+            "Trion": 8,
+            "Attack": 6,
+            "DefenseSupport": 7,
+            "Mobility": 7,
+            "Skill": 8
+          },
+          "AbilityList" : [8,6,7,7,8]
+        },
+        "Image": "assest/123.png",
+        "Cursor": "assest/cursor/Oki_Kōji-removebg-preview.png"
+      }
+  ]

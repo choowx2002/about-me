@@ -1,0 +1,12 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <path stroke="#000" fill="#000000" stroke-width="0" opacity="undefined" d="m400,373c-40.33149,0 -73,-32.66851 -73,-73c0,-40.33149 32.66851,-73 73,-73c40.33149,0 73,32.66851 73,73c0,40.33149 -32.66851,73 -73,73z" id="svg_12"/>
+  <rect fill="#BBBBBB" stroke-width="0" x="392.5" y="256" width="15" height="294" id="svg_5" stroke="#000" rx="10"/>
+  <rect fill="#BBBBBB" stroke="#000" stroke-width="0" x="1180" y="201" width="0" height="1" id="svg_6"/>
+  <ellipse fill="#BBBBBB" stroke="#000" stroke-width="0" cx="400" cy="300" id="svg_8" rx="50" ry="50"/>
+  <path transform="rotate(-37 386.113 553.496)" stroke="#000" fill="#BBBBBB" stroke-width="0" opacity="undefined" d="m361.7101,554.2849c0,-4.28776 2.71776,-7.89091 5.95189,-7.89091l36.90175,0c3.23413,0 5.95189,3.60316 5.95189,7.89091l0,-1.57818c0,4.28776 -2.71776,7.89091 -5.95189,7.89091l-36.90175,0c-3.23413,0 -5.95189,-3.60316 -5.95189,-7.89091l0,1.57818z" id="svg_11"/>
+  <rect stroke="#000" rx="20" id="svg_1" height="30" width="41" y="552" x="337" stroke-width="0" fill="#000000"/>
+ </g>
+
+</svg>
