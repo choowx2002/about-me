@@ -9,7 +9,7 @@ html {
 	width: 100%;
 	cursor: none;
 	background-color: rgba(5, 9, 19, 0.8);
-	background-image: url(assest/bg01.jpg);
+	background-image: url(../assest/background/bg01.jpg);
 	background-blend-mode: overlay;
 	background-size: cover;
 	background-position: center;
@@ -89,25 +89,23 @@ body {
 	}
 }
 
-/* radar abilityChart */
-.content-container {
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+.content-container{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
-.firstRow {
-	display: flex;
-	justify-content: end;
+.button{
+    font-size: 80px;
+    padding: 10px;
+    border: 5px solid rgba(54, 162, 235, 1);
+    background-color: rgba(54, 162, 235, 1);
+    border-radius: 10px;
+    text-decoration: none;
 }
 
-.secondRow {
-	color: rgb(253, 247, 247);
-	padding: 0px 10px;
-}
-
-.abilityChart {
-	width: 400px;
-	height: 400px;
+.button > * {
+    color: white;
 }

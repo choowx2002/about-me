@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>World Trigger</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="cursor">
+      <img
+        id="cursorImg"
+        src="assest/123.png"
+        style="width: 100%; height: 100%; object-fit: cover"
+      />
+    </div>
+    <div class="bgm-controller">
+      <div>
+        <img src="assest/cd.svg" alt="CD SVG" class="cd" />
+        <img src="assest/cd2.svg" alt="CD2 SVG" class="cd2" />
+      </div>
+    </div>
+    <div class="content-container">
+      <div class="firstRow">
+        <div class="abilityChart">
+          <canvas id="myRadarChart" width="400" height="400"></canvas>
+        </div>
+        <div class="trigger">
+          <div class="primary">
+            <p style="margin-bottom: 5px">
+              <span class="spantag">MAIN</span>Trigger
+            </p>
+          </div>
+          <div class="secondary">
+            <p style="margin-bottom: 5px">
+              <span class="spantag">SUB</span>Trigger
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="secondRow">
+        <div>
+          <h2 id="squad"></h2>
+          <h1 id="name" style="font-size: 54px"></h1>
+        </div>
+      </div>
+    </div>
+    <audio src="assest/BGM.mp3" loop class="BGM"></audio>
+    <script src="scripts/member.js"></script>
+  </body>
+</html>

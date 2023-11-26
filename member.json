@@ -1,76 +1,183 @@
 [
-    {
-      "BasicInfo": {
-        "Name": "隠岐 孝二（おき こうじ）",
-        "AffiliatedForce": "边境本部",
-        "Rank": "B级",
-        "Squad": "生驹队",
-        "Position": "狙击手"
-      },
-      "PersonalProfile": {
-        "Age": "17岁",
-        "Birthday": "9月30日",
-        "Height": "176cm",
-        "BloodType": "AB型",
-        "ZodiacSign": "新月座",
-        "Occupation": "高中生",
-        "Likes": ["明石烧", "关东煮", "猫", "购物"]
-      },
-      "AdditionalInfo": {
-        "FamilyMembers": ["父亲", "母亲", "猫"]
-      },
-      "CombatInfo": {
-        "TriggerConfig": {
-          "PrimaryTrigger": ["白鹭", "闪电", "盾", "蚱蜢"],
-          "SecondaryTrigger": ["蓑衣虫", "Free", "盾", "Free"]
-        },
-        "Ability": {
-          "Trion": 8,
-          "Attack": 6,
-          "DefenseSupport": 7,
-          "Mobility": 7,
-          "Skill": 8
-        },
-        "AbilityList" : [8,6,7,7,8]
-      },
-      "Image": "assest/bg01.jpg",
-      "Cursor": "assest/cursor/Oki_Kōji-removebg-preview.png"
+  {
+    "BasicInfo": {
+      "Name": "空閑 遊真（くが ゆうま）",
+      "AffiliatedForce": "边境玉狛支部",
+      "Rank": "B级",
+      "Squad": "玉狛第二（三云队）",
+      "Position": "攻击手"
     },
-    {
-        "BasicInfo": {
-          "Name": "隠岐 孝二（おき こうじ）2",
-          "AffiliatedForce": "边境本部",
-          "Rank": "B级",
-          "Squad": "生驹队",
-          "Position": "狙击手"
-        },
-        "PersonalProfile": {
-          "Age": "17岁",
-          "Birthday": "9月30日",
-          "Height": "176cm",
-          "BloodType": "AB型",
-          "ZodiacSign": "新月座",
-          "Occupation": "高中生",
-          "Likes": ["明石烧", "关东煮", "猫", "购物"]
-        },
-        "AdditionalInfo": {
-          "FamilyMembers": ["父亲", "母亲", "猫"]
-        },
-        "CombatInfo": {
-          "TriggerConfig": {
-            "PrimaryTrigger": ["白鹭", "闪电", "盾", "蚱蜢"],
-            "SecondaryTrigger": ["蓑衣虫", "Free", "盾", "Free"]
-          },
-          "Ability": {
-            "Trion": 8,
-            "Attack": 6,
-            "DefenseSupport": 7,
-            "Mobility": 7,
-            "Skill": 8
-          },
-          "AbilityList" : [8,6,7,7,8]
-        },
-        "Image": "assest/123.png",
-        "Cursor": "assest/cursor/Oki_Kōji-removebg-preview.png"
+    "PersonalProfile": {
+      "Age": "15岁",
+      "Birthday": "7月18日（换算成玄界历法）",
+      "Height": "141cm",
+      "BloodType": "",
+      "ZodiacSign": "天剑座",
+      "Occupation": "初中生",
+      "Likes": ["日本的食物"]
+    },
+    "AdditionalInfo": {
+      "FamilyMembers": ["父亲（空闲有吾）", "雷普利卡"],
+      "Relationships": {
+        "师傅": "小南桐绘",
+        "搭档": ["三雲修", "雷普利卡"],
+        "队友": ["雨取千佳", "休斯"]
+      },
+      "Other": {
+        "副作用": "看破谎言（继承自父亲）"
       }
-  ]
+    },
+    "CombatInfo": {
+      "TriggerConfig": {
+        "PrimaryTrigger": ["蝎子", "蚱蜢", "盾", "Free"],
+        "SecondaryTrigger": ["蝎子", "蚱蜢", "盾", "蓑衣虫"]
+      },
+      "Ability": {
+        "Trion": 7,
+        "Attack": 9,
+        "DefenseSupport": 8,
+        "Mobility": 10,
+        "Skill": 8,
+        "Range": 2,
+        "Command": 5,
+        "SpecialTactics": 4
+      },
+      "TotalPoints": 53
+    },
+    "Image": "assest/background/yuma.jpg",
+    "Cursor": "assest/cursor/02.png"
+  },  
+  {
+    "BasicInfo": {
+      "Name": "三雲 修（みくも おさむ）",
+      "AffiliatedForce": "边境玉狛支部",
+      "Rank": "B级",
+      "Squad": "玉狛第二（三云队）",
+      "Position": "射手"
+    },
+    "PersonalProfile": {
+      "Age": "15岁",
+      "Birthday": "5月25日",
+      "Height": "168cm",
+      "BloodType": "A型",
+      "ZodiacSign": "天兔座",
+      "Occupation": "中学生",
+      "Likes": ["妈妈的料理", "桥"]
+    },
+    "AdditionalInfo": {
+      "FamilyMembers": ["父亲", "母亲"],
+      "Relationships": {
+        "师傅": "乌丸京介",
+        "母子": "三云香澄",
+        "搭档": "空闲游真",
+        "青梅竹马": "雨取千佳",
+        "恩人": ["迅悠一", "雷普利卡"]
+      }
+    },
+    "CombatInfo": {
+      "TriggerConfig": {
+        "PrimaryTrigger": ["光魂", "推进器", "Free", "蜘蛛"],
+        "SecondaryTrigger": ["小行星", "Free", "盾", "蓑衣虫"]
+      },
+      "Ability": {
+        "Trion": 2,
+        "Attack": 3,
+        "DefenseSupport": 4,
+        "Mobility": 4,
+        "Skill": 5,
+        "Range": 4,
+        "Command": 6,
+        "SpecialTactics": 4
+      },
+      "TotalPoints": 32
+    },
+    "Image": "assest/background/osamu.jpeg",
+    "Cursor": "assest/cursor/osamu-removebg-preview.png"
+  },
+  {
+    "BasicInfo": {
+      "Name": "雨取 千佳",
+      "AffiliatedForce": "边境玉狛支部",
+      "Rank": "B级",
+      "Squad": "玉狛第二（三云队）",
+      "Position": "狙击手"
+    },
+    "PersonalProfile": {
+      "Age": "14岁",
+      "Birthday": "2月11日",
+      "Height": "140cm",
+      "BloodType": "A型",
+      "ZodiacSign": "青蛙座",
+      "Occupation": "中学生",
+      "Likes": ["小动物", "小朋友", "白饭", "努力工作"]
+    },
+    "AdditionalInfo": {
+      "FamilyMembers": ["父亲", "母亲", "哥哥"],
+      "Relationships": {
+        "师傅": "木崎礼治",
+        "青梅竹马": "三云修",
+        "队友": "空闲游真",
+        "朋友": "夏目出穗"
+      },
+      "Other": {
+        "副作用": "敌感知•气息消除"
+      }
+    },
+    "CombatInfo": {
+      "TriggerConfig": {
+        "PrimaryTrigger": ["朱鹮", "白鹭", "盾", "闪电"],
+        "SecondaryTrigger": ["蓑衣虫", "Free", "盾", "铅弹"]
+      },
+      "Ability": {
+        "Trion": 38,
+        "Attack": 2,
+        "DefenseSupport": 5,
+        "Mobility": 3,
+        "Skill": 6,
+        "Range": 8,
+        "Command": 1,
+        "SpecialTactics": 1
+      },
+      "TotalPoints": 64
+    },
+    "Image": "assest/background/chika.png",
+    "Cursor":"assest/cursor/03.png"
+  },  
+  {
+    "BasicInfo": {
+      "Name": "隠岐 孝二（おき こうじ）",
+      "AffiliatedForce": "边境本部",
+      "Rank": "B级",
+      "Squad": "生驹队",
+      "Position": "狙击手"
+    },
+    "PersonalProfile": {
+      "Age": "17岁",
+      "Birthday": "9月30日",
+      "Height": "176cm",
+      "BloodType": "AB型",
+      "ZodiacSign": "新月座",
+      "Occupation": "高中生",
+      "Likes": ["明石烧", "关东煮", "猫", "购物"]
+    },
+    "AdditionalInfo": {
+      "FamilyMembers": ["父亲", "母亲", "猫"]
+    },
+    "CombatInfo": {
+      "TriggerConfig": {
+        "PrimaryTrigger": ["白鹭", "闪电", "盾", "蚱蜢"],
+        "SecondaryTrigger": ["蓑衣虫", "Free", "盾", "Free"]
+      },
+      "Ability": {
+        "Trion": 8,
+        "Attack": 6,
+        "DefenseSupport": 7,
+        "Mobility": 7,
+        "Skill": 8
+      },
+      "TotalPoints": 32
+    },
+    "Image": "assest/background/bg01.jpg",
+    "Cursor": "assest/cursor/Oki_Kōji-removebg-preview.png"
+  }
+]
