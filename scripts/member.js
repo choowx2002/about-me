@@ -199,9 +199,9 @@ addEventListener("mousemove", (event) => {
   cursor.style.display = "block";
   var x = event.clientX - 24;
   var y = event.clientY - 24;
-  // if (Math.abs(event.movementX) + Math.abs(event.movementY) > 6) {
-  //     rad = Math.atan2(event.movementX, -event.movementY)
-  // }
+  if (Math.abs(event.movementX) + Math.abs(event.movementY) > 6) {
+      rad = Math.atan2(event.movementX, -event.movementY)
+  }
   cursor.style.transform = `translate(${x}px, ${y}px) rotate(${rad}rad)`;
 });
 
